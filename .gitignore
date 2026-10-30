@@ -1,0 +1,16 @@
+# Arduino build artifacts
+*.elf
+*.hex
+*.bin
+*.o
+*.d
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep credentials out of GitHub
+secrets.h
+.env
